@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M4.4,0C2,0,0,2,0,4.4v15.3c0,2.4,2,4.4,4.4,4.4h15.3c2.4,0,4.4-2,4.4-4.4V4.4c0-2.4-2-4.4-4.4-4.4H4.4ZM6.5,6h-1.1v10.9h2.2v-3.3h1.6c2.1,0,3.8-1.7,3.8-3.8s-1.7-3.8-3.8-3.8h-2.7ZM9.3,11.5h-1.6v-3.3h1.6c.9,0,1.6.7,1.6,1.6s-.7,1.6-1.6,1.6M14.7,8.7v8.2h2.2v-4.6c.2-.4.5-.7.8-.9.4-.3,1-.5,1.9-.5v-2.2c-1.1,0-2,.2-2.7.6v-.6h-2.2Z"/>
+</svg>
