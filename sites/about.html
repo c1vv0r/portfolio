@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c1vv0r || about</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="../css/background.css" type="text/css">
+</head>
+
+
+
+<body id="scroll">
+
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
+        version="1.1">
+        <defs>
+            <filter id="pixelar">
+                <feFlood x="4" y="4" height="2" width="2" />
+                <feComposite width="4" height="4" />
+                <feTile result="rejilla" />
+                <feComposite in="SourceGraphic" in2="rejilla" operator="in" />
+                <feMorphology operator="dilate" radius="1" />
+            </filter>
+        </defs>
+    </svg>
+
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
+        version="1.1">
+        <defs>
+            <filter id="pixelar-carrusel">
+                <feFlood x="4" y="4" height="2" width="2" />
+                <feComposite width="10" height="10" />
+                <feTile result="rejilla" />
+                <feComposite in="SourceGraphic" in2="rejilla" operator="in" />
+                <feMorphology operator="dilate" radius="5" />
+            </filter>
+        </defs>
+    </svg>
+    <div class="fondo">
+        <div class="ola ola1"></div>
+        <div class="ola ola2"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div id="degradado"></div>
+            <ul class="flex estatico">
+                <li>
+                    <ul class="flex-2">
+                        <li><a href="mailto:victormartingarcia2004@gmail.com"><img src="../assets/icon-mail.svg"
+                                    class="iconos" alt="Correo"></a></li>
+                        <li><a href="https://www.instagram.com/victorugalcuenca/"><img src="../assets/icon-gram.svg"
+                                    class="iconos" alt="Instagram"></a></li>
+                        <li><a href="https://www.tiktok.com/@c1vv0r"><img src="../assets/icon-tiktok.svg" class="iconos"
+                                    alt="Tiktok"></a></li>
+                        <li><a href="https://www.behance.net/victormartin19"><img src="../assets/icon-behance.svg"
+                                    class="iconos" alt="Behance"></a></li>
+                    </ul>
+                </li>
+                <li><a href="../index.html"><img src="../assets/logo.svg" width="250vw" alt="logo" id="logo"></a>
+                </li>
+                <li><a href="../sites/about.html" id="about">ABOUT</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul class="flex guia">
+                <li>
+                    <ul class="flex-2">
+                        <li><a href="mailto:victormartingarcia2004@gmail.com"><img src="../assets/icon-mail.svg"
+                                    class="iconos" alt="Correo"></a></li>
+                        <li><a href="#"><img src="../assets/icon-gram.svg" class="iconos" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="../assets/icon-tiktok.svg" class="iconos" alt="Tiktok"></a></li>
+                        <li><a href="#"><img src="../assets/icon-behance.svg" class="iconos" alt="Behance"></a></li>
+                    </ul>
+                </li>
+                <li><a href="../index.html"><img src="../assets/logo.svg" width="250vw" alt="logo" id="logo"></a>
+                </li>
+                <li><a href="../sites/about.html" id="about">ABOUT</a></li>
+            </ul>
+        </nav>
+        <div id="titular">
+            <button id="prev" class="boton"></button>
+            <h1>about</h1>
+            <button id="next" class="boton"></button>
+        </div>
+    </header>
+    <main>
+        <img src="../assets/carrusel-about.gif" id="fondoabt" alt="fondo">
+        <div id="estructura">
+            <p id="unoabt">Joven diseñador de Madrid, apasionado por dar forma visual a las ideas y contar historias a
+                través del diseño. Mi trabajo se mueve entre distintas disciplinas: diseño web, motion graphics, diseño
+                editorial y diseño gráfico, lo que me permite abordar cada proyecto desde una perspectiva versátil y
+                completa.
+                <br><br>
+                Domino las herramientas de la suite Adobe —InDesign, Photoshop, Illustrator, After Effects y Premiere—
+                que utilizo a diario para dar vida a proyectos editoriales, gráficos y audiovisuales. Además, cuento con
+                conocimientos en Maya y Cinema 4D, lo que me permite explorar el diseño en 3D y aportar una dimensión
+                extra a mis piezas.
+            </p>
+
+            <div id="dosabt">
+                <p>ECOSISTEMA DE TRABAJO</p>
+                <div id="programas">
+                    <img src="../assets/programas/photoshop.svg" alt="Photoshop" class="icono">
+                    <img src="../assets/programas/illustrator.svg" alt="Illustrator" class="icono">
+                    <img src="../assets/programas/aftereffects.svg" alt="After effects" class="icono">
+                    <img src="../assets/programas/indesign.svg" alt="InDesign" class="icono">
+                    <img src="../assets/programas/premiere.svg" alt="Premiere" class="icono">
+                    <img src="../assets/programas/cinema4d.svg" alt="Cinema4D" class="icono">
+                </div>
+            </div>
+            <form action="https://formspree.io/f/xkoeonpv" id="tresabt" method="POST">
+                <p>CONTACTO</p>
+                <input type="hidden" name="_subject" value="Nuevo contacto Portfolio">
+
+                <textarea name="message" placeholder="Contacto" required></textarea>
+
+                <textarea name="message" placeholder="Escribe tu mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2026 c1vv0r. Todos los derechos reservados.<br><br> Todo el contenido de este portfolio (imágenes, diseños,
+            ilustraciones, animaciones, vídeos y textos) ha sido creado por el autor, salvo que se indique lo contrario,
+            y está protegido por la legislación de propiedad intelectual vigente. Queda prohibida su reproducción,
+            distribución, modificación o uso total o parcial sin autorización previa por escrito. <br>
+            Los proyectos mostrados pueden incluir trabajos realizados para clientes o marcas de terceros; los
+            logotipos, nombres y marcas mencionados pertenecen a sus respectivos propietarios y se muestran únicamente
+            con fines demostrativos y de portfolio profesional. <br>
+            Este sitio web tiene fines exclusivamente informativos y de exhibición de trabajo profesional. El autor no
+            se hace responsable del uso indebido que terceros puedan hacer del contenido aquí mostrado.
+        </p>
+    </footer>
+    <script src="../js/proyectos.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c1vv0r</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="css/background.css" type="text/css">
+</head>
+
+<body>
+
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
+        version="1.1">
+        <defs>
+            <filter id="pixelar">
+                <feFlood x="4" y="4" height="2" width="2" />
+                <feComposite width="4" height="4" />
+                <feTile result="rejilla" />
+                <feComposite in="SourceGraphic" in2="rejilla" operator="in" />
+                <feMorphology operator="dilate" radius="1" />
+            </filter>
+        </defs>
+    </svg>
+
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
+        version="1.1">
+        <defs>
+            <filter id="pixelar-carrusel">
+                <feFlood x="4" y="4" height="2" width="2" />
+                <feComposite width="10" height="10" />
+                <feTile result="rejilla" />
+                <feComposite in="SourceGraphic" in2="rejilla" operator="in" />
+                <feMorphology operator="dilate" radius="5" />
+            </filter>
+        </defs>
+    </svg>
+
+    <div class="fondo">
+        <div class="ola ola1"></div>
+        <div class="ola ola2"></div>
+    </div>
+
+    <header>
+        <nav>
+            <ul class="flex">
+                <li>
+                    <ul class="flex-2">
+                        <li><a href="mailto:victormartingarcia2004@gmail.com"><img src="assets/icon-mail.svg"
+                                    class="iconos" alt="Correo"></a></li>
+                        <li><a href="https://www.instagram.com/victorugalcuenca/"><img src="assets/icon-gram.svg"
+                                    class="iconos" alt="Instagram"></a></li>
+                        <li><a href="https://www.tiktok.com/@c1vv0r"><img src="assets/icon-tiktok.svg" class="iconos"
+                                    alt="Tiktok"></a></li>
+                        <li><a href="https://www.behance.net/victormartin19"><img src="assets/icon-behance.svg"
+                                    class="iconos" alt="Behance"></a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html"><img src="assets/logo.svg" width="250vw" alt="logo" id="logo"></a></li>
+                <li><a href="sites/about.html" id="about">ABOUT</a></li>
+            </ul>
+        </nav>
+        <div id="sites">
+            <h1 class="titulo">motion graphics</h1>
+            <h2 class="titulo">diseño gráfico</h2>
+            <h2 class="titulo">diseño editorial</h2>
+            <h2 class="titulo">about</h2>
+        </div>
+    </header>
+    <main>
+        <div class="carrusel">
+            <figure>
+                <a href="sites/pf-motion.html"><img src="assets/carrusel-motiongraphics.gif" alt="carrusel"
+                        class="gif"></a>
+            </figure>
+            <div id="flechas">
+                <button id="prev" class="boton"></button>
+                <button id="next" class="boton"></button>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

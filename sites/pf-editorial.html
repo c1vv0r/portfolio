@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c1vv0r || diseño editorial</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="../css/background.css" type="text/css">
+</head>
+
+<body id="movilscroll">
+
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg"
+        version="1.1">
+        <defs>
+            <filter id="pixelar">
+                <feFlood x="4" y="4" height="2" width="2" />
+                <feComposite width="4" height="4" />
+                <feTile result="rejilla" />
+                <feComposite in="SourceGraphic" in2="rejilla" operator="in" />
+                <feMorphology operator="dilate" radius="1" />
+            </filter>
+        </defs>
+    </svg>
+
+    <div class="fondo">
+        <div class="ola ola1"></div>
+        <div class="ola ola2"></div>
+    </div>
+
+    <header>
+        <nav>
+            <ul class="flex">
+                <li>
+                    <ul class="flex-2">
+                        <li><a href="mailto:victormartingarcia2004@gmail.com"><img src="../assets/icon-mail.svg"
+                                    class="iconos" alt="Correo"></a></li>
+                        <li><a href="https://www.instagram.com/victorugalcuenca/"><img src="../assets/icon-gram.svg"
+                                    class="iconos" alt="Instagram"></a></li>
+                        <li><a href="https://www.tiktok.com/@c1vv0r"><img src="../assets/icon-tiktok.svg" class="iconos"
+                                    alt="Tiktok"></a></li>
+                        <li><a href="https://www.behance.net/victormartin19"><img src="../assets/icon-behance.svg"
+                                    class="iconos" alt="Behance"></a></li>
+                    </ul>
+                </li>
+                <li><a href="../index.html"><img src="../assets/logo.svg" width="250vw" alt="logo" id="logo"></a>
+                </li>
+                <li><a href="../sites/about.html" id="about">ABOUT</a></li>
+            </ul>
+        </nav>
+        <div id="titular">
+            <button id="prev" class="boton"></button>
+            <h1>diseño editorial</h1>
+            <button id="next" class="boton"></button>
+        </div>
+    </header>
+    <main>
+        <ul class="grid">
+            <li>
+                <article class="proyecto">
+                    <img src="../assets/proyectos/editorial/0.png" alt="Revista RUIDO" class="editorial">
+                    <p>Revista RUIDO</p>
+                    <section class="overlay oculto">
+                        <div class="fondo"></div>
+                        <div class="doc">
+                            <img src="../assets/proyectos/editorial/0/1.jpg" alt="Revista RUIDO 1">
+                            <img src="../assets/proyectos/editorial/0/2.jpg" alt="Revista RUIDO 2">
+                            <img src="../assets/proyectos/editorial/0/3.gif" alt="Revista RUIDO 3">
+                            <img src="../assets/proyectos/editorial/0/4.jpg" alt="Revista RUIDO 4">
+                            <img src="../assets/proyectos/editorial/0/5.gif" alt="Revista RUIDO 5">
+                            <img src="../assets/proyectos/editorial/0/6.jpg" alt="Revista RUIDO 6">
+                            <img src="../assets/proyectos/editorial/0/7.jpg" alt="Revista RUIDO 7">
+                            <img src="../assets/proyectos/editorial/0/8.jpg" alt="Revista RUIDO 8">
+                            <img src="../assets/proyectos/editorial/0/9.jpg" alt="Revista RUIDO 9">
+                        </div>
+                    </section>
+                </article>
+            </li>
+            <li>
+                <article class="proyecto">
+                    <img src="../assets/proyectos/editorial/1.png" alt="Poesía gráfica" class="editorial">
+                    <p>Poesía gráfica</p>
+                    <section class="overlay oculto imagen">
+                        <div class="fondo"></div>
+                        <img src="../assets/proyectos/editorial/1.png" alt="Poesía gráfica">
+                    </section>
+                </article>
+            </li>
+            <li>
+                <article class="proyecto">
+                    <img src="../assets/proyectos/editorial/2.png" alt="Revista CONCRETO" class="editorial">
+                    <p>Revista CONCRETO</p>
+                    <section class="overlay oculto">
+                        <div class="fondo"></div>
+                        <div class="doc">
+                            <img src="../assets/proyectos/editorial/2/1.png" alt="Revista CONCRETO 1">
+                            <img src="../assets/proyectos/editorial/2/2.png" alt="Revista CONCRETO 2">
+                            <img src="../assets/proyectos/editorial/2/3.png" alt="Revista CONCRETO 3">
+                            <img src="../assets/proyectos/editorial/2/4.png" alt="Revista CONCRETO 4">
+                            <img src="../assets/proyectos/editorial/2/5.png" alt="Revista CONCRETO 5">
+                            <img src="../assets/proyectos/editorial/2/6.png" alt="Revista CONCRETO 6">
+                            <img src="../assets/proyectos/editorial/2/7.png" alt="Revista CONCRETO 7">
+                            <img src="../assets/proyectos/editorial/2/8.png" alt="Revista CONCRETO 8">
+                        </div>
+                    </section>
+                </article>
+            </li>
+            <!-- <li>
+                <article class="proyecto">
+                    <img src="../assets/proyectos/editorial/3.png" alt="" class="editorial">
+                    <p>Nombre del proyecto</p>
+                    <section class="overlay oculto doc">
+
+                    </section>
+                </article>
+            </li>
+            <li>
+                <article class="proyecto">
+                    <img src="../assets/proyectos/editorial/4.png" alt="" class="editorial">
+                    <p>Nombre del proyecto</p>
+                    <section class="overlay oculto doc">
+
+                    </section>
+                </article>
+            </li> -->
+    </main>
+    <script src="../js/proyectos.js"></script>
+</body>
+
+</html>
