@@ -1,16 +1,16 @@
 /* CARRUSEL */
 
 const titulos = document.querySelectorAll('.titulo'); /* cambio de título */
-const imagen = document.querySelector('figure img'); /* cambio de GIF */
+const imagen = document.querySelector('figure video'); /* cambio de GIF */
 const enlace = document.querySelector('figure a'); /* cambio de links */
 const sig = document.querySelector('#next'); /* selector de botones para cambiar */
 const ant = document.querySelector('#prev');
 
 const carrusel = [
-    'assets/carrusel-motiongraphics.gif',
-    'assets/carrusel-diseno.gif',
-    'assets/carrusel-editorial.gif',
-    'assets/carrusel-about.gif',
+    'assets/carrusel-motiongraphics.webm',
+    'assets/carrusel-diseno.webm',
+    'assets/carrusel-editorial.webm',
+    'assets/carrusel-about.webm',
 ];
 
 const link = [
